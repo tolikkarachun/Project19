@@ -1,0 +1,21 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+:root {
+	--ff: 'Poppins', sans-serif;
+	--transition: .2s all ease-in-out;
+
+	--c-primary: #38BFF2;
+	--c-text-white: #fff; 
+	--c-border: #eee;
+	--c-welcome-bg: #F9F8FD;
+	--c-header: #22253B;
+	--c-btn: #F15525;
+	--c-courses-item: #0997cf55;
+	--c-resp-item: #c9dff0;
+	--c-bg-img: #95abbb;
+	
+}

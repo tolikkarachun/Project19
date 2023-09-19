@@ -1,0 +1,87 @@
+.footer {
+  margin-top: 70px;
+  padding: 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background: var(--c-header);
+  
+  @include tablet {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__logo-title {
+    font-family: var(--ff);
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--c-primary);
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+    @include tablet {
+      justify-content: center;
+	  align-items: center;
+    }
+  }
+
+  &__info-header {
+    color: var(--c-primary);
+    font-size: 22px;
+  }
+
+  &__info-value {
+    max-width: 300px;
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+  }
+  &__nav {
+	margin-top: 20px;
+  }
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  &__support {
+    color: var(--c-primary);
+    font-size: 22px;
+  }
+
+  &__support-header {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+
+  &__support-value {
+    max-width: 300px;
+  }
+  &__courses-header {
+    font-size: 22px;
+    color: var(--c-primary);
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  &__courses-li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: var(--c-text-white);
+    font-size: 16px;
+  }
+}
