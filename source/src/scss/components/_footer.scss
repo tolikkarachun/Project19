@@ -71,6 +71,10 @@
 
   &__support-value {
     max-width: 300px;
+    max-height: 100px;
+    background: var(--c-primary);
+    padding: 10px;
+    border-radius: 20px;
   }
   &__courses-header {
     font-size: 22px;

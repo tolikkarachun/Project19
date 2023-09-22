@@ -11,9 +11,7 @@
   &__img {
     flex-shrink: 0;
     max-width: 500px;
-  }
-
-  &__info {
+    max-height: 400px;
   }
 
   &__title {
@@ -41,7 +39,7 @@
     margin: 20px;
     padding: 20px;
     background: var(--c-text-white);
-    border-radius: 30px;
+    border-radius: 15px;
     transition: var(--transition);
     cursor: pointer;
     &:hover {

@@ -6,12 +6,15 @@
   padding-bottom: 20px;
   background: var(--c-header);
 
-
   &__logo {
     display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
+  }
+  &__logo-img {
+    max-width: 150px;
+    max-height: 100px;
   }
   &__logo-title {
     font-family: var(--ff);
@@ -19,9 +22,9 @@
     font-weight: 600;
     text-transform: uppercase;
     color: var(--c-primary);
-	@include mobile {
-		display: none;
-	}
+    @include mobile {
+      display: none;
+    }
   }
   &__backdrop {
     background: rgba(0, 0, 0, 0.6);
@@ -78,7 +81,7 @@
       color: var(--c-text-white);
     }
   }
-  
+
   &__a {
     font-family: var(--ff);
     font-size: 16px;
